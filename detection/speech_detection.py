@@ -6,20 +6,19 @@ then uses OpenAI's Whisper model to transcribe speech segments.
 
 It groups short segments close in time to reduce fragmentation,
 and returns timestamps with detected speech along with the transcribed text.
-
-Useful to detect if the candidate is speaking to someone off-camera,
-which could indicate potential cheating.
 """
 
 import os
 import ffmpeg
 import whisper
+import json
 
 # --- Configuration Constants ---
-WHISPER_MODEL_SIZE = "base"  # Model size: tiny, base, small, medium, large (adjust for speed vs accuracy)
+WHISPER_MODEL_SIZE = "base"  # Options: tiny, base, small, medium, large
 TEMP_AUDIO_PATH = "temp_audio.wav"
-MIN_TEXT_LENGTH = 5          # Minimum length of transcribed text to consider valid
-MERGE_THRESHOLD_SEC = 1.5    # Merge speech segments if closer than this in seconds
+MIN_TEXT_LENGTH = 5
+MERGE_THRESHOLD_SEC = 1.5
+SAVE_TRANSCRIPT_JSON = True  
 
 def extract_audio_with_ffmpeg(video_path: str, output_wav_path: str, sample_rate: int = 16000) -> bool:
     """
@@ -43,8 +42,7 @@ def extract_audio_with_ffmpeg(video_path: str, output_wav_path: str, sample_rate
         ).run(overwrite_output=True, quiet=True)
         return True
     except ffmpeg.Error as e:
-        err_msg = e.stderr.decode(errors='ignore') if e.stderr else str(e)
-        print(f"Error extracting audio: {err_msg}")
+        print(f"Error extracting audio: {e.stderr.decode(errors='ignore') if e.stderr else str(e)}")
         return False
 
 def format_timestamp(seconds: float) -> str:
@@ -72,53 +70,50 @@ def detect_speaking_to_someone(video_path: str) -> list:
         list of dict: List of detected speaking events with start/end timestamps and transcribed text.
     """
     if not os.path.exists(video_path):
-        print(f"Error: Video file not found: {video_path}")
+        print(f"[ERROR] Video not found: {video_path}")
         return []
 
-    # Step 1: Extract audio track from video
-    success = extract_audio_with_ffmpeg(video_path, TEMP_AUDIO_PATH)
-    if not success:
+    print(f"[INFO] Extracting audio from video: {video_path}")
+    if not extract_audio_with_ffmpeg(video_path, TEMP_AUDIO_PATH):
         return []
 
     try:
-        # Step 2: Load Whisper model
+        print(f"[INFO] Loading Whisper model: {WHISPER_MODEL_SIZE}")
         model = whisper.load_model(WHISPER_MODEL_SIZE)
-        print(f"Loaded Whisper ASR model '{WHISPER_MODEL_SIZE}'.")
 
-        # Step 3: Transcribe the extracted audio file
-        transcription_result = model.transcribe(TEMP_AUDIO_PATH, verbose=False)
-        segments = transcription_result.get("segments", [])
-        detected_language = transcription_result.get("language", "unknown")
+        print("[INFO] Transcribing audio...")
+        transcription = model.transcribe(TEMP_AUDIO_PATH, verbose=False, temperature=0.0)
+        segments = transcription.get("segments", [])
+        language = transcription.get("language", "unknown")
 
-        # Step 4: Merge nearby speech segments to reduce fragmentation
+        print(f"[INFO] Detected language: {language}")
+        print(f"[INFO] Total segments detected: {len(segments)}")
+
         merged_segments = []
-        current_segment = None
+        current = None
 
         for seg in segments:
             text = seg.get("text", "").strip()
+            if len(text) < MIN_TEXT_LENGTH:
+                continue
+
             start = seg.get("start")
             end = seg.get("end")
 
-            # Skip very short or empty segments
-            if not text or len(text) < MIN_TEXT_LENGTH:
-                continue
-
-            if current_segment is None:
-                current_segment = {"start": start, "end": end, "text": text}
+            if current is None:
+                current = {"start": start, "end": end, "text": text}
+            elif start - current["end"] <= MERGE_THRESHOLD_SEC:
+                current["text"] += " " + text
+                current["end"] = end
             else:
-                # Merge if gap between segments is small
-                if start - current_segment["end"] <= MERGE_THRESHOLD_SEC:
-                    current_segment["text"] += " " + text
-                    current_segment["end"] = end
-                else:
-                    merged_segments.append(current_segment)
-                    current_segment = {"start": start, "end": end, "text": text}
+                merged_segments.append(current)
+                current = {"start": start, "end": end, "text": text}
 
-        # Add the last segment if any
-        if current_segment:
-            merged_segments.append(current_segment)
+        if current:
+            merged_segments.append(current)
 
-        # Step 5: Prepare output events
+        print(f"[INFO] Merged segments: {len(merged_segments)}")
+
         speaking_events = []
         for seg in merged_segments:
             speaking_events.append({
@@ -126,24 +121,30 @@ def detect_speaking_to_someone(video_path: str) -> list:
                 "timestamp_end": format_timestamp(seg["end"]),
                 "event_type": "SPEAKING_TO_SOMEONE",
                 "text": seg["text"],
-                "language": detected_language
+                "language": language
             })
 
-        print(f"Transcription complete. Detected {len(speaking_events)} speaking events.")
+            print(speaking_events)
+
+        if SAVE_TRANSCRIPT_JSON:
+            out_path = os.path.splitext(video_path)[0] + "_speech.json"
+            with open(out_path, "w", encoding="utf-8") as f:
+                json.dump(speaking_events, f, ensure_ascii=False, indent=2)
+            print(f"[INFO] Saved speaking events to: {out_path}")
+
+        print(f"[SUCCESS] Transcription complete. {len(speaking_events)} speaking events detected.")
         return speaking_events
 
     except Exception as e:
-        print(f"Error during Whisper transcription: {e}")
+        print(f"[ERROR] Whisper transcription failed: {e}")
         return []
 
     finally:
-        # Clean up temporary audio file
         if os.path.exists(TEMP_AUDIO_PATH):
             os.remove(TEMP_AUDIO_PATH)
-        print(f"Temporary audio file '{TEMP_AUDIO_PATH}' removed.")
+            print(f"[INFO] Removed temporary audio file: {TEMP_AUDIO_PATH}")
 
-
-# === Test the speech detection function ===
+# --- Test ---
 if __name__ == "__main__":
-    test_video = r"\videos\Movie on 17.06.2025 at 14.39.mov"
+    test_video = r"\videos\Movie on 17.06.2025 at 14.42.mov"
     detect_speaking_to_someone(test_video)

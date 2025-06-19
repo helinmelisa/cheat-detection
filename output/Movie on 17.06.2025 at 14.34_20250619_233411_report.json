@@ -1,0 +1,3139 @@
+{
+  "events": [
+    {
+      "timestamp": 30.546099094102424,
+      "pitch": 16.39307689558274,
+      "yaw": 4.954583730336115,
+      "ear": 0.14512522999109317,
+      "gaze_ratio": 0.41492160593365923,
+      "reasons": [
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 30.579963948973933,
+      "pitch": 16.26915944644453,
+      "yaw": 5.169482519572894,
+      "ear": 0.14606569642355133,
+      "gaze_ratio": 0.4098606739759155,
+      "reasons": [
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 30.613828803845443,
+      "pitch": 16.111558119671514,
+      "yaw": 5.588922185932229,
+      "ear": 0.1330300894993427,
+      "gaze_ratio": 0.4199761856379224,
+      "reasons": [
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 30.647693658716953,
+      "pitch": 15.746689049741601,
+      "yaw": 5.859465971057697,
+      "ear": 0.1350768291354469,
+      "gaze_ratio": 0.4196942641862501,
+      "reasons": [
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 30.681558513588467,
+      "pitch": 15.463010671493839,
+      "yaw": 5.540882506784564,
+      "ear": 0.1438786193710102,
+      "gaze_ratio": 0.39015777119196504,
+      "reasons": [
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 30.715423368459977,
+      "pitch": 15.028540124806216,
+      "yaw": 3.546657258171328,
+      "ear": 0.17900473798655514,
+      "gaze_ratio": 0.3557994073543448,
+      "reasons": [
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 32.44253096690701,
+      "pitch": 17.340517035842314,
+      "yaw": 0.7209491272731694,
+      "ear": 0.13448535353585403,
+      "gaze_ratio": 0.4041107699450316,
+      "reasons": [
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 32.47639582177852,
+      "pitch": 17.577409414999842,
+      "yaw": 0.20725895183768456,
+      "ear": 0.13468162879037515,
+      "gaze_ratio": 0.4046001482855931,
+      "reasons": [
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 32.51026067665003,
+      "pitch": 17.28233466145647,
+      "yaw": 0.14155152118704958,
+      "ear": 0.12411103244175908,
+      "gaze_ratio": 0.42447341142136397,
+      "reasons": [
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 32.54412553152154,
+      "pitch": 17.468363062136127,
+      "yaw": 0.4492619867655649,
+      "ear": 0.12310699649955649,
+      "gaze_ratio": 0.4362476778559024,
+      "reasons": [
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 32.57799038639305,
+      "pitch": 17.30721773553978,
+      "yaw": 0.6871218570067701,
+      "ear": 0.13722600352372163,
+      "gaze_ratio": 0.390245084736222,
+      "reasons": [
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 32.611855241264564,
+      "pitch": 17.215140103048295,
+      "yaw": -0.13335047406101597,
+      "ear": 0.143624596222165,
+      "gaze_ratio": 0.37762077553565243,
+      "reasons": [
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 32.645720096136074,
+      "pitch": 16.873434141868724,
+      "yaw": 0.7829240940845346,
+      "ear": 0.13818096407117353,
+      "gaze_ratio": 0.4126123929980434,
+      "reasons": [
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 32.679584951007584,
+      "pitch": 16.667434099786355,
+      "yaw": 1.6181553043607393,
+      "ear": 0.1385628551780869,
+      "gaze_ratio": 0.4010325026869682,
+      "reasons": [
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 32.713449805879094,
+      "pitch": 16.248957148643658,
+      "yaw": 1.6796145916011609,
+      "ear": 0.13992330386054785,
+      "gaze_ratio": 0.4110532333254161,
+      "reasons": [
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 32.747314660750604,
+      "pitch": 16.651359233597084,
+      "yaw": 1.9557819838474164,
+      "ear": 0.13106173744553395,
+      "gaze_ratio": 0.44047262411415805,
+      "reasons": [
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 32.781179515622114,
+      "pitch": 16.70061961228911,
+      "yaw": 2.4448495337980254,
+      "ear": 0.12925250005280137,
+      "gaze_ratio": 0.39531507431678037,
+      "reasons": [
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 32.815044370493624,
+      "pitch": 16.670887860711392,
+      "yaw": 3.358804572744113,
+      "ear": 0.12067608255787096,
+      "gaze_ratio": 0.40597314154229514,
+      "reasons": [
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 32.848909225365134,
+      "pitch": 16.198452885393245,
+      "yaw": 4.661028330675608,
+      "ear": 0.12339138692502294,
+      "gaze_ratio": 0.4307517727825474,
+      "reasons": [
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 32.88277408023664,
+      "pitch": 16.146518240877278,
+      "yaw": 5.882286375939819,
+      "ear": 0.11573400752610499,
+      "gaze_ratio": 0.4402122402370936,
+      "reasons": [
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 32.91663893510815,
+      "pitch": 16.078417658935717,
+      "yaw": 5.81657811800596,
+      "ear": 0.11775691204552119,
+      "gaze_ratio": 0.4519214322700588,
+      "reasons": [
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 32.95050378997966,
+      "pitch": 16.00615999297815,
+      "yaw": 5.830751701488529,
+      "ear": 0.12471775322713907,
+      "gaze_ratio": 0.4036839695611262,
+      "reasons": [
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 32.98436864485117,
+      "pitch": 15.5334990276527,
+      "yaw": 6.200139770393893,
+      "ear": 0.12056353762266127,
+      "gaze_ratio": 0.4047333087689666,
+      "reasons": [
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 33.01823349972268,
+      "pitch": 15.554259956663106,
+      "yaw": 5.591407177695423,
+      "ear": 0.11942751564062855,
+      "gaze_ratio": 0.40855222608553865,
+      "reasons": [
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 33.0520983545942,
+      "pitch": 15.052740054566184,
+      "yaw": 6.431623137222427,
+      "ear": 0.12241268841323472,
+      "gaze_ratio": 0.40720534318695367,
+      "reasons": [
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 33.08596320946571,
+      "pitch": 14.833909893262675,
+      "yaw": 6.830313314399891,
+      "ear": 0.11676273903750223,
+      "gaze_ratio": 0.4188440970333297,
+      "reasons": [
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 33.11982806433722,
+      "pitch": 14.57138954163421,
+      "yaw": 7.093754207670476,
+      "ear": 0.12147394698586302,
+      "gaze_ratio": 0.42648570049574497,
+      "reasons": [
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 33.15369291920873,
+      "pitch": 14.508129983077815,
+      "yaw": 7.493919218595778,
+      "ear": 0.12020249271048791,
+      "gaze_ratio": 0.44895436320789417,
+      "reasons": [
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 33.18755777408024,
+      "pitch": 14.507009300420046,
+      "yaw": 7.482576803770511,
+      "ear": 0.11730076190423436,
+      "gaze_ratio": 0.4708040138019246,
+      "reasons": [
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 33.22142262895175,
+      "pitch": 14.350946102618343,
+      "yaw": 7.92894294433342,
+      "ear": 0.11198725902253512,
+      "gaze_ratio": 0.4838373013206928,
+      "reasons": [
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 33.25528748382326,
+      "pitch": 14.248400647959382,
+      "yaw": 7.913192762676555,
+      "ear": 0.10392338229519757,
+      "gaze_ratio": 0.4904148100630805,
+      "reasons": [
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 33.28915233869477,
+      "pitch": 14.45055866936349,
+      "yaw": 6.9163833161945725,
+      "ear": 0.10564305938083846,
+      "gaze_ratio": 0.45114807818214375,
+      "reasons": [
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 33.32301719356628,
+      "pitch": 14.656774879997684,
+      "yaw": 6.304835160718459,
+      "ear": 0.10380776601937566,
+      "gaze_ratio": 0.5034710784080321,
+      "reasons": [
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 33.35688204843779,
+      "pitch": 10.041792785457316,
+      "yaw": -3.3791239350145337,
+      "ear": 0.07243021031706665,
+      "gaze_ratio": 0.951273384086065,
+      "reasons": [
+        "looking_down",
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 33.3907469033093,
+      "pitch": 10.712476707578073,
+      "yaw": -3.8906193194284553,
+      "ear": 0.051161442002673516,
+      "gaze_ratio": 1.521035036163259,
+      "reasons": [
+        "looking_down",
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 33.42461175818081,
+      "pitch": 10.171827875372005,
+      "yaw": -3.190798635794651,
+      "ear": 0.04745479369903985,
+      "gaze_ratio": 1.8458866766267974,
+      "reasons": [
+        "looking_down",
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 33.45847661305232,
+      "pitch": 10.39439447774936,
+      "yaw": -2.5999250735864416,
+      "ear": 0.06654112484792679,
+      "gaze_ratio": 0.7281787360750505,
+      "reasons": [
+        "looking_down",
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 33.49234146792383,
+      "pitch": 14.767200485256764,
+      "yaw": 4.923476879864932,
+      "ear": 0.0890747915492092,
+      "gaze_ratio": 0.21864373721547686,
+      "reasons": [
+        "looking_up",
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 33.526206322795346,
+      "pitch": 14.168530222508446,
+      "yaw": 5.230709893491364,
+      "ear": 0.1649410570980569,
+      "gaze_ratio": 0.35010550942906504,
+      "reasons": [
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 33.560071177666856,
+      "pitch": 14.318762747549185,
+      "yaw": 3.9567047489158673,
+      "ear": 0.20726342717934973,
+      "gaze_ratio": 0.3253108335479975,
+      "reasons": [
+        "looking_up"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 33.593936032538366,
+      "pitch": 14.46122918078685,
+      "yaw": 2.7805727186706686,
+      "ear": 0.21672534226674395,
+      "gaze_ratio": 0.3390851912549687,
+      "reasons": [
+        "looking_up"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 34.30509798484008,
+      "pitch": 15.240810314392633,
+      "yaw": 3.49861979026115,
+      "ear": 0.12405609914800297,
+      "gaze_ratio": 0.4327677470976241,
+      "reasons": [
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 34.33896283971159,
+      "pitch": 10.172683950298044,
+      "yaw": -3.7052870329747645,
+      "ear": 0.08331282984289194,
+      "gaze_ratio": 0.6737859554299719,
+      "reasons": [
+        "looking_down",
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 34.3728276945831,
+      "pitch": 10.649978117638947,
+      "yaw": -5.077482731231199,
+      "ear": 0.05617087174102255,
+      "gaze_ratio": 1.36721755378337,
+      "reasons": [
+        "looking_down",
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 34.40669254945461,
+      "pitch": 10.853342459881693,
+      "yaw": -4.506717499999139,
+      "ear": 0.05139969159703395,
+      "gaze_ratio": 1.6590370583720322,
+      "reasons": [
+        "looking_down",
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 34.44055740432613,
+      "pitch": 11.105218660043876,
+      "yaw": -4.066146794548101,
+      "ear": 0.054289673357340223,
+      "gaze_ratio": 1.244496656151381,
+      "reasons": [
+        "looking_down",
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 34.47442225919764,
+      "pitch": 10.822191911653285,
+      "yaw": -3.778586603363737,
+      "ear": 0.061234754934682153,
+      "gaze_ratio": 0.58409852227524,
+      "reasons": [
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 34.50828711406915,
+      "pitch": 15.269886654032627,
+      "yaw": 1.5346366487397083,
+      "ear": 0.14961718967560583,
+      "gaze_ratio": 0.32136994228293064,
+      "reasons": [
+        "looking_up",
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 36.57404326123128,
+      "pitch": 15.831360843920224,
+      "yaw": 3.3822691213925937,
+      "ear": 0.10219075555879983,
+      "gaze_ratio": 0.42680051323294277,
+      "reasons": [
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 36.60790811610279,
+      "pitch": 15.978158392023314,
+      "yaw": 3.0117276960032964,
+      "ear": 0.09895879902877952,
+      "gaze_ratio": 0.4592029420455601,
+      "reasons": [
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 36.6417729709743,
+      "pitch": 15.97052195178634,
+      "yaw": 2.9964819242573038,
+      "ear": 0.09498886924074204,
+      "gaze_ratio": 0.5102763602628041,
+      "reasons": [
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 36.67563782584581,
+      "pitch": 15.965653447917965,
+      "yaw": 2.412097610510008,
+      "ear": 0.10280781502626653,
+      "gaze_ratio": 0.517083278530947,
+      "reasons": [
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 36.70950268071733,
+      "pitch": 16.063023348059453,
+      "yaw": 2.5414581973588843,
+      "ear": 0.0975900412516784,
+      "gaze_ratio": 0.4779875477604126,
+      "reasons": [
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 36.74336753558884,
+      "pitch": 16.139302549605077,
+      "yaw": 2.2564636813028076,
+      "ear": 0.10607612398693358,
+      "gaze_ratio": 0.42440300408659726,
+      "reasons": [
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 36.77723239046035,
+      "pitch": 16.36350406032849,
+      "yaw": 2.3504416703492765,
+      "ear": 0.10436649365889644,
+      "gaze_ratio": 0.45365693614125585,
+      "reasons": [
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 36.81109724533186,
+      "pitch": 16.534309359538714,
+      "yaw": 2.125007250614071,
+      "ear": 0.10506301106512243,
+      "gaze_ratio": 0.4372075972258904,
+      "reasons": [
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 36.84496210020337,
+      "pitch": 16.735722480544133,
+      "yaw": 1.413259893068436,
+      "ear": 0.10318666995174938,
+      "gaze_ratio": 0.4299762687501266,
+      "reasons": [
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 36.87882695507488,
+      "pitch": 16.655354571510586,
+      "yaw": 1.6657507836272545,
+      "ear": 0.09762130265709876,
+      "gaze_ratio": 0.4625128650648666,
+      "reasons": [
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 36.91269180994639,
+      "pitch": 16.64777715638066,
+      "yaw": 2.1256437262879295,
+      "ear": 0.11349752978372779,
+      "gaze_ratio": 0.4053523901662251,
+      "reasons": [
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 36.9465566648179,
+      "pitch": 16.407032990468334,
+      "yaw": 2.339542141597674,
+      "ear": 0.10964830745764559,
+      "gaze_ratio": 0.38052105835818006,
+      "reasons": [
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 36.98042151968941,
+      "pitch": 16.771100956567768,
+      "yaw": 2.783128112353858,
+      "ear": 0.11444066739912498,
+      "gaze_ratio": 0.4053655846445816,
+      "reasons": [
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 37.01428637456092,
+      "pitch": 16.566781360457437,
+      "yaw": 3.6036582028294215,
+      "ear": 0.105777960476333,
+      "gaze_ratio": 0.4613252219912821,
+      "reasons": [
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 37.04815122943243,
+      "pitch": 16.29213871105758,
+      "yaw": 4.340780974797371,
+      "ear": 0.12033481233711343,
+      "gaze_ratio": 0.43062764881176324,
+      "reasons": [
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 37.08201608430394,
+      "pitch": 16.48199297799563,
+      "yaw": 4.382686598621369,
+      "ear": 0.114753344264646,
+      "gaze_ratio": 0.4505762170175407,
+      "reasons": [
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 37.11588093917545,
+      "pitch": 10.35479761282325,
+      "yaw": -4.72203669547562,
+      "ear": 0.1156492663935651,
+      "gaze_ratio": 0.48275358624508513,
+      "reasons": [
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 37.14974579404696,
+      "pitch": 11.03489279782425,
+      "yaw": -4.1400256036895025,
+      "ear": 0.10271636181453739,
+      "gaze_ratio": 0.48309902883711403,
+      "reasons": [
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 37.183610648918474,
+      "pitch": 10.31373998493663,
+      "yaw": -4.700240267394078,
+      "ear": 0.10786447512604197,
+      "gaze_ratio": 0.48937912766422864,
+      "reasons": [
+        "pitch",
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 37.217475503789984,
+      "pitch": 10.474007346349612,
+      "yaw": -4.379199481906422,
+      "ear": 0.11364503911445299,
+      "gaze_ratio": 0.43990831740643954,
+      "reasons": [
+        "pitch",
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 37.251340358661494,
+      "pitch": 10.411576953624836,
+      "yaw": -5.244902645791449,
+      "ear": 0.10866822182366132,
+      "gaze_ratio": 0.45732014456003994,
+      "reasons": [
+        "pitch",
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 37.285205213533004,
+      "pitch": 10.267881092091946,
+      "yaw": -5.1117466676546846,
+      "ear": 0.10838149044109921,
+      "gaze_ratio": 0.43989223665694854,
+      "reasons": [
+        "pitch",
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 37.319070068404514,
+      "pitch": 10.507143387585238,
+      "yaw": -4.95682623080422,
+      "ear": 0.10177410409686599,
+      "gaze_ratio": 0.4943690337473275,
+      "reasons": [
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 37.352934923276024,
+      "pitch": 9.897633860808114,
+      "yaw": -4.7114559364323725,
+      "ear": 0.10630550045404671,
+      "gaze_ratio": 0.4395089670640633,
+      "reasons": [
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 37.386799778147534,
+      "pitch": 14.787586656273902,
+      "yaw": 4.610629449183162,
+      "ear": 0.11177049832308558,
+      "gaze_ratio": 0.3977505707899138,
+      "reasons": [
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 37.420664633019044,
+      "pitch": 14.886760703513461,
+      "yaw": 3.9448296091057427,
+      "ear": 0.10044103617009201,
+      "gaze_ratio": 0.5093837743112419,
+      "reasons": [
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 37.454529487890554,
+      "pitch": 15.426465513773193,
+      "yaw": 3.595796156013733,
+      "ear": 0.08736481044428109,
+      "gaze_ratio": 0.4757519229801436,
+      "reasons": [
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 37.488394342762064,
+      "pitch": 15.737123832704066,
+      "yaw": 2.509421424193643,
+      "ear": 0.10786733601351509,
+      "gaze_ratio": 0.41253962401297206,
+      "reasons": [
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 37.52225919763357,
+      "pitch": 15.820197655318164,
+      "yaw": 2.8149322587997254,
+      "ear": 0.10686252862901738,
+      "gaze_ratio": 0.4325907626073061,
+      "reasons": [
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 37.55612405250508,
+      "pitch": 15.779372486735742,
+      "yaw": 3.6865175951289877,
+      "ear": 0.09005665119470742,
+      "gaze_ratio": 0.4973955277733795,
+      "reasons": [
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 37.58998890737659,
+      "pitch": 15.562249335732268,
+      "yaw": 3.2105476045673873,
+      "ear": 0.09306271871729159,
+      "gaze_ratio": 0.43726559782403507,
+      "reasons": [
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 37.62385376224811,
+      "pitch": 16.16848885722972,
+      "yaw": 3.649949709530451,
+      "ear": 0.08818199656347814,
+      "gaze_ratio": 0.47055841778716445,
+      "reasons": [
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 37.65771861711962,
+      "pitch": 15.97182984927238,
+      "yaw": 4.022003707365911,
+      "ear": 0.0883706439676833,
+      "gaze_ratio": 0.5319710512870265,
+      "reasons": [
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 37.69158347199113,
+      "pitch": 15.94709981902471,
+      "yaw": 4.2886685546108625,
+      "ear": 0.08756699192387657,
+      "gaze_ratio": 0.523299836088156,
+      "reasons": [
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 37.72544832686264,
+      "pitch": 15.909780069493152,
+      "yaw": 4.328392700875799,
+      "ear": 0.0900184024571347,
+      "gaze_ratio": 0.5309915981474671,
+      "reasons": [
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 37.75931318173415,
+      "pitch": 15.934810624886966,
+      "yaw": 4.351682903851618,
+      "ear": 0.09189046071260085,
+      "gaze_ratio": 0.5225641554267901,
+      "reasons": [
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 37.79317803660566,
+      "pitch": 15.988988354732848,
+      "yaw": 4.294026269377392,
+      "ear": 0.08913913198009546,
+      "gaze_ratio": 0.4895569607442002,
+      "reasons": [
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 37.82704289147717,
+      "pitch": 16.046089417051874,
+      "yaw": 4.087050686855762,
+      "ear": 0.09371703351867143,
+      "gaze_ratio": 0.5197792645405834,
+      "reasons": [
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 37.86090774634868,
+      "pitch": 15.993344670520742,
+      "yaw": 3.920856430788997,
+      "ear": 0.09524948432734763,
+      "gaze_ratio": 0.5205399392532103,
+      "reasons": [
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 37.89477260122019,
+      "pitch": 16.161782946407232,
+      "yaw": 4.108315937357904,
+      "ear": 0.09343786443319466,
+      "gaze_ratio": 0.5077190199742099,
+      "reasons": [
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 37.9286374560917,
+      "pitch": 16.18889367515916,
+      "yaw": 4.2587440830051895,
+      "ear": 0.09276976658376049,
+      "gaze_ratio": 0.4948457115655439,
+      "reasons": [
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 37.96250231096321,
+      "pitch": 16.22388287431989,
+      "yaw": 4.209593132958085,
+      "ear": 0.09741029832538503,
+      "gaze_ratio": 0.4713109857813893,
+      "reasons": [
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 37.99636716583472,
+      "pitch": 16.150993254093088,
+      "yaw": 4.028180334426743,
+      "ear": 0.09974068713005153,
+      "gaze_ratio": 0.4809402391476728,
+      "reasons": [
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 38.03023202070623,
+      "pitch": 16.090636979919022,
+      "yaw": 4.073197872180871,
+      "ear": 0.09736930759996404,
+      "gaze_ratio": 0.49899382569478556,
+      "reasons": [
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 38.06409687557775,
+      "pitch": 16.01960903496322,
+      "yaw": 3.6026662594377328,
+      "ear": 0.09979528108163668,
+      "gaze_ratio": 0.46172570361778387,
+      "reasons": [
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 38.097961730449256,
+      "pitch": 16.20678181809664,
+      "yaw": 4.192860265761424,
+      "ear": 0.09403942718199941,
+      "gaze_ratio": 0.456357185416002,
+      "reasons": [
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 38.131826585320766,
+      "pitch": 15.961255203286962,
+      "yaw": 3.668490193033201,
+      "ear": 0.10314227506330279,
+      "gaze_ratio": 0.44252646393868605,
+      "reasons": [
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 38.165691440192276,
+      "pitch": 15.96745582474227,
+      "yaw": 4.288194563206756,
+      "ear": 0.09293132386689307,
+      "gaze_ratio": 0.4644287586800372,
+      "reasons": [
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 38.199556295063786,
+      "pitch": 16.150498364498038,
+      "yaw": 4.299283476543801,
+      "ear": 0.0886006394053293,
+      "gaze_ratio": 0.4845690626477114,
+      "reasons": [
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 38.233421149935296,
+      "pitch": 16.153712466008862,
+      "yaw": 4.166310457033086,
+      "ear": 0.08876588447689143,
+      "gaze_ratio": 0.48133167064937654,
+      "reasons": [
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 38.267286004806806,
+      "pitch": 16.075037436338363,
+      "yaw": 3.459298134088394,
+      "ear": 0.0970175783487168,
+      "gaze_ratio": 0.44618319792854066,
+      "reasons": [
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 38.301150859678316,
+      "pitch": 16.14431892883598,
+      "yaw": 3.3381943758455126,
+      "ear": 0.09919261998616585,
+      "gaze_ratio": 0.4263156214942064,
+      "reasons": [
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 38.335015714549826,
+      "pitch": 16.603977076668382,
+      "yaw": 3.804209172082316,
+      "ear": 0.09335241568630884,
+      "gaze_ratio": 0.4381284134779533,
+      "reasons": [
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 38.368880569421336,
+      "pitch": 16.477102834969916,
+      "yaw": 3.536286234908941,
+      "ear": 0.09576377337350722,
+      "gaze_ratio": 0.4515507751583862,
+      "reasons": [
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 38.402745424292846,
+      "pitch": 16.585646310500707,
+      "yaw": 3.0776888767577937,
+      "ear": 0.09562740076755222,
+      "gaze_ratio": 0.42676326867360226,
+      "reasons": [
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 38.436610279164356,
+      "pitch": 16.651570597176924,
+      "yaw": 3.4241525842351193,
+      "ear": 0.09113377600719613,
+      "gaze_ratio": 0.4433375826108495,
+      "reasons": [
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 38.470475134035865,
+      "pitch": 16.57121173713037,
+      "yaw": 3.4744535885134895,
+      "ear": 0.09073653547986582,
+      "gaze_ratio": 0.5138632212394106,
+      "reasons": [
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 38.504339988907375,
+      "pitch": 16.361495632651692,
+      "yaw": 3.116138768989142,
+      "ear": 0.09285185624433494,
+      "gaze_ratio": 0.5159224548817315,
+      "reasons": [
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 38.53820484377889,
+      "pitch": 16.230402081128208,
+      "yaw": 3.3494724451237987,
+      "ear": 0.09849723698900187,
+      "gaze_ratio": 0.4906472231314367,
+      "reasons": [
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 38.5720696986504,
+      "pitch": 16.056181519875008,
+      "yaw": 2.8387217087500574,
+      "ear": 0.0971875843186806,
+      "gaze_ratio": 0.4639349481980459,
+      "reasons": [
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 38.60593455352191,
+      "pitch": 16.130318713639785,
+      "yaw": 2.6917311927366656,
+      "ear": 0.0988183730628156,
+      "gaze_ratio": 0.45836739413540867,
+      "reasons": [
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 38.63979940839342,
+      "pitch": 15.969859689059422,
+      "yaw": 2.8559159013439577,
+      "ear": 0.09861189924249542,
+      "gaze_ratio": 0.4836694487559363,
+      "reasons": [
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 38.67366426326493,
+      "pitch": 16.048210226286958,
+      "yaw": 3.171292722667797,
+      "ear": 0.09763469180086568,
+      "gaze_ratio": 0.4695715156166689,
+      "reasons": [
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 38.70752911813644,
+      "pitch": 16.077645870386092,
+      "yaw": 3.177181790765678,
+      "ear": 0.10210730375751723,
+      "gaze_ratio": 0.46587874512340005,
+      "reasons": [
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 38.74139397300795,
+      "pitch": 16.0940561147922,
+      "yaw": 3.504839746902119,
+      "ear": 0.1007119294213854,
+      "gaze_ratio": 0.4866575013940715,
+      "reasons": [
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 38.77525882787946,
+      "pitch": 16.486859173880852,
+      "yaw": 3.63617638830504,
+      "ear": 0.09736828857596831,
+      "gaze_ratio": 0.48634565105714,
+      "reasons": [
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 38.80912368275097,
+      "pitch": 16.296159185876053,
+      "yaw": 3.3917468977930505,
+      "ear": 0.09632519160098732,
+      "gaze_ratio": 0.48268228191043133,
+      "reasons": [
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 38.84298853762248,
+      "pitch": 11.031862184582685,
+      "yaw": -4.48179708863905,
+      "ear": 0.07704026115079242,
+      "gaze_ratio": 0.7985189996216067,
+      "reasons": [
+        "looking_down",
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 38.87685339249399,
+      "pitch": 11.056906767586332,
+      "yaw": -5.873447681117763,
+      "ear": 0.059641107985836855,
+      "gaze_ratio": 1.2530571287360655,
+      "reasons": [
+        "looking_down",
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 38.9107182473655,
+      "pitch": 11.365155256517001,
+      "yaw": -4.580749322303299,
+      "ear": 0.04980628591091188,
+      "gaze_ratio": 1.5264972873879108,
+      "reasons": [
+        "looking_down",
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 38.94458310223701,
+      "pitch": 11.54198386664461,
+      "yaw": -4.7217168962203315,
+      "ear": 0.06453764127534387,
+      "gaze_ratio": 0.6548508999120127,
+      "reasons": [
+        "looking_down",
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 38.97844795710853,
+      "pitch": 15.950889248436486,
+      "yaw": 2.10240201930912,
+      "ear": 0.12096628295848835,
+      "gaze_ratio": 0.3175116878292521,
+      "reasons": [
+        "looking_up",
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 39.01231281198004,
+      "pitch": 15.940242641110943,
+      "yaw": 0.6521373285886398,
+      "ear": 0.21574621968432592,
+      "gaze_ratio": 0.3468834057793624,
+      "reasons": [
+        "looking_up"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 39.04617766685155,
+      "pitch": 15.511198303765246,
+      "yaw": 0.6234499605093117,
+      "ear": 0.21840149724287244,
+      "gaze_ratio": 0.33787551881275524,
+      "reasons": [
+        "looking_up"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 40.02825845812535,
+      "pitch": 16.077626916427505,
+      "yaw": 2.8979847910035446,
+      "ear": 0.11911672400287499,
+      "gaze_ratio": 0.4334617862257175,
+      "reasons": [
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 40.06212331299686,
+      "pitch": 15.926568374282013,
+      "yaw": 2.6846327050345486,
+      "ear": 0.11609123991600429,
+      "gaze_ratio": 0.4516111829409698,
+      "reasons": [
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 40.09598816786837,
+      "pitch": 16.30040220672636,
+      "yaw": 2.964961267847881,
+      "ear": 0.11704384329194863,
+      "gaze_ratio": 0.427644259968997,
+      "reasons": [
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 40.12985302273988,
+      "pitch": 15.98742211436576,
+      "yaw": 3.4204359749245423,
+      "ear": 0.11746908703870451,
+      "gaze_ratio": 0.4477392437848376,
+      "reasons": [
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 40.16371787761139,
+      "pitch": 15.966104918219473,
+      "yaw": 3.11632884909903,
+      "ear": 0.11938376246840232,
+      "gaze_ratio": 0.43463097395740025,
+      "reasons": [
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 40.1975827324829,
+      "pitch": 16.2415065056514,
+      "yaw": 3.667679042863664,
+      "ear": 0.113945716129354,
+      "gaze_ratio": 0.43907409630145866,
+      "reasons": [
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 40.23144758735441,
+      "pitch": 16.067729155796357,
+      "yaw": 3.48323469556658,
+      "ear": 0.11671980547962388,
+      "gaze_ratio": 0.43730573147336527,
+      "reasons": [
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 40.26531244222592,
+      "pitch": 16.109632494841957,
+      "yaw": 3.2367370369093367,
+      "ear": 0.11468981627223554,
+      "gaze_ratio": 0.4445349055123644,
+      "reasons": [
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 40.29917729709743,
+      "pitch": 16.23003335394103,
+      "yaw": 3.1058081292827255,
+      "ear": 0.10531336072849526,
+      "gaze_ratio": 0.4325974436596743,
+      "reasons": [
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 40.33304215196894,
+      "pitch": 16.108488508509463,
+      "yaw": 2.4878539460403455,
+      "ear": 0.10394793701995333,
+      "gaze_ratio": 0.4554961136055228,
+      "reasons": [
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 40.36690700684046,
+      "pitch": 16.09754305337889,
+      "yaw": 2.699011509979936,
+      "ear": 0.10527817502987336,
+      "gaze_ratio": 0.47409467362837987,
+      "reasons": [
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 40.400771861711966,
+      "pitch": 16.290768115293275,
+      "yaw": 2.7600712655006148,
+      "ear": 0.1034542977370648,
+      "gaze_ratio": 0.5112632457520814,
+      "reasons": [
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 40.434636716583476,
+      "pitch": 16.305900445897365,
+      "yaw": 2.572342615005076,
+      "ear": 0.1026354096228664,
+      "gaze_ratio": 0.4588126571174619,
+      "reasons": [
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 40.468501571454986,
+      "pitch": 16.215259374195515,
+      "yaw": 3.1992556661066063,
+      "ear": 0.10888494222081707,
+      "gaze_ratio": 0.4719449597127516,
+      "reasons": [
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 40.502366426326496,
+      "pitch": 16.42624357106841,
+      "yaw": 3.6875962933392765,
+      "ear": 0.11038297826137458,
+      "gaze_ratio": 0.4961166113407081,
+      "reasons": [
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 40.536231281198006,
+      "pitch": 16.29147295024213,
+      "yaw": 3.3849316014886215,
+      "ear": 0.10803048557029796,
+      "gaze_ratio": 0.49698115745838933,
+      "reasons": [
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 40.570096136069516,
+      "pitch": 16.40667873083884,
+      "yaw": 3.6930253174094902,
+      "ear": 0.10352113966837569,
+      "gaze_ratio": 0.4803397696915129,
+      "reasons": [
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 40.603960990941026,
+      "pitch": 16.42140018710739,
+      "yaw": 3.87062383288522,
+      "ear": 0.10660699113808009,
+      "gaze_ratio": 0.5085472633924681,
+      "reasons": [
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 40.637825845812536,
+      "pitch": 16.496847455388018,
+      "yaw": 3.8991798287733164,
+      "ear": 0.1086769984761271,
+      "gaze_ratio": 0.44418158297872923,
+      "reasons": [
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 40.671690700684046,
+      "pitch": 16.478543047528643,
+      "yaw": 4.148818748695655,
+      "ear": 0.10363897770998945,
+      "gaze_ratio": 0.45428890166131913,
+      "reasons": [
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 40.705555555555556,
+      "pitch": 16.433648562470292,
+      "yaw": 3.7374093757188898,
+      "ear": 0.10681601160498375,
+      "gaze_ratio": 0.4459590667099491,
+      "reasons": [
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 40.739420410427066,
+      "pitch": 16.431949799850884,
+      "yaw": 3.9403681316068346,
+      "ear": 0.11240766703856264,
+      "gaze_ratio": 0.4390925665410754,
+      "reasons": [
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 40.773285265298576,
+      "pitch": 16.19702465261886,
+      "yaw": 4.060550760780505,
+      "ear": 0.10879360291066972,
+      "gaze_ratio": 0.45754229155453546,
+      "reasons": [
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 40.80715012017009,
+      "pitch": 16.283476058905396,
+      "yaw": 4.143900350228229,
+      "ear": 0.1010051736612802,
+      "gaze_ratio": 0.4961775986990203,
+      "reasons": [
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 40.8410149750416,
+      "pitch": 16.059917107379494,
+      "yaw": 4.820274864391289,
+      "ear": 0.07813471785094131,
+      "gaze_ratio": 0.6154607564647883,
+      "reasons": [
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 40.87487982991311,
+      "pitch": 10.989848249194877,
+      "yaw": -4.323888148114728,
+      "ear": 0.07315156910634074,
+      "gaze_ratio": 0.9014498240806188,
+      "reasons": [
+        "looking_down",
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 40.90874468478462,
+      "pitch": 11.426689616781685,
+      "yaw": -4.211417395565003,
+      "ear": 0.057356839699210634,
+      "gaze_ratio": 1.3031432721103275,
+      "reasons": [
+        "looking_down",
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 40.94260953965613,
+      "pitch": 11.868645931213859,
+      "yaw": -3.785671008551902,
+      "ear": 0.07888175076144843,
+      "gaze_ratio": 0.6743753413753835,
+      "reasons": [
+        "looking_down",
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 40.97647439452764,
+      "pitch": 16.37131375630115,
+      "yaw": 3.2178810243919007,
+      "ear": 0.14912955782472753,
+      "gaze_ratio": 0.3165689337906088,
+      "reasons": [
+        "looking_up",
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 41.68763634682936,
+      "pitch": 16.215690212941254,
+      "yaw": 4.320849331484684,
+      "ear": 0.11395128604361116,
+      "gaze_ratio": 0.4327980857439151,
+      "reasons": [
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 41.721501201700875,
+      "pitch": 16.57598359085795,
+      "yaw": 3.809442912304362,
+      "ear": 0.10483595476376219,
+      "gaze_ratio": 0.4642355084599968,
+      "reasons": [
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 41.755366056572385,
+      "pitch": 17.00467700026808,
+      "yaw": 3.430606489246638,
+      "ear": 0.11332806949843582,
+      "gaze_ratio": 0.451989370588045,
+      "reasons": [
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 41.789230911443894,
+      "pitch": 17.15653208223455,
+      "yaw": 3.3971557857964565,
+      "ear": 0.11320991934420876,
+      "gaze_ratio": 0.44550712284813976,
+      "reasons": [
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 41.823095766315404,
+      "pitch": 17.20616225855857,
+      "yaw": 3.143996716561662,
+      "ear": 0.11672867178930994,
+      "gaze_ratio": 0.39917605271390666,
+      "reasons": [
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 41.856960621186914,
+      "pitch": 17.12266067985125,
+      "yaw": 3.7455548672284666,
+      "ear": 0.10772130182007475,
+      "gaze_ratio": 0.39119536158882734,
+      "reasons": [
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 41.890825476058424,
+      "pitch": 17.195782427353336,
+      "yaw": 4.100507208508391,
+      "ear": 0.10604164896181292,
+      "gaze_ratio": 0.3832704648614802,
+      "reasons": [
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 41.924690330929934,
+      "pitch": 17.271462885643782,
+      "yaw": 4.26945080992904,
+      "ear": 0.10453469368264721,
+      "gaze_ratio": 0.3932109248561297,
+      "reasons": [
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 41.958555185801444,
+      "pitch": 16.934418863675322,
+      "yaw": 4.2997341906605,
+      "ear": 0.10432823343947716,
+      "gaze_ratio": 0.39046260975989844,
+      "reasons": [
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 41.992420040672954,
+      "pitch": 16.980833006989442,
+      "yaw": 4.543874305828075,
+      "ear": 0.1128773152423502,
+      "gaze_ratio": 0.39892105283973,
+      "reasons": [
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 42.026284895544464,
+      "pitch": 16.777063849085536,
+      "yaw": 3.985451816924698,
+      "ear": 0.09979035894176037,
+      "gaze_ratio": 0.47359865201068374,
+      "reasons": [
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 42.060149750415974,
+      "pitch": 11.891985487249991,
+      "yaw": -4.7928097053375955,
+      "ear": 0.07042127372508199,
+      "gaze_ratio": 1.0643994461048782,
+      "reasons": [
+        "looking_down",
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 42.094014605287484,
+      "pitch": 11.851748958802807,
+      "yaw": -3.824728572213463,
+      "ear": 0.05819372576896327,
+      "gaze_ratio": 1.3102959322319432,
+      "reasons": [
+        "looking_down",
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 42.127879460158994,
+      "pitch": 12.160065408296493,
+      "yaw": -3.9485358859451507,
+      "ear": 0.0691043328135302,
+      "gaze_ratio": 0.7815364306482847,
+      "reasons": [
+        "looking_down",
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 42.161744315030504,
+      "pitch": 16.665850947994414,
+      "yaw": 3.748956057653982,
+      "ear": 0.09946231811067126,
+      "gaze_ratio": 0.3308147271914788,
+      "reasons": [
+        "looking_up",
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 42.19560916990202,
+      "pitch": 16.894372325787643,
+      "yaw": 2.5303545624316452,
+      "ear": 0.19210857115498736,
+      "gaze_ratio": 0.3284643554714975,
+      "reasons": [
+        "looking_up",
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 43.14382510630431,
+      "pitch": 16.33231506238114,
+      "yaw": 6.187579015834273,
+      "ear": 0.1220331710454963,
+      "gaze_ratio": 0.4603086793839839,
+      "reasons": [
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 43.17768996117582,
+      "pitch": 16.220384147264483,
+      "yaw": 6.100054975324343,
+      "ear": 0.12592595068486698,
+      "gaze_ratio": 0.4247226246260767,
+      "reasons": [
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 43.21155481604733,
+      "pitch": 16.110242215529418,
+      "yaw": 5.595864691755856,
+      "ear": 0.12459218595812516,
+      "gaze_ratio": 0.4340190098179618,
+      "reasons": [
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 43.24541967091884,
+      "pitch": 16.114070954314613,
+      "yaw": 5.037289338886346,
+      "ear": 0.1299522272897808,
+      "gaze_ratio": 0.4171745361313367,
+      "reasons": [
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 43.27928452579035,
+      "pitch": 16.39467262104459,
+      "yaw": 4.99414172182242,
+      "ear": 0.12146676274808153,
+      "gaze_ratio": 0.39432318125334065,
+      "reasons": [
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 43.31314938066186,
+      "pitch": 16.49537607183346,
+      "yaw": 5.491527884698559,
+      "ear": 0.11063413769519645,
+      "gaze_ratio": 0.3852336178225644,
+      "reasons": [
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 43.34701423553337,
+      "pitch": 16.575514757974915,
+      "yaw": 4.899283263676352,
+      "ear": 0.10403867520258142,
+      "gaze_ratio": 0.3790888583585932,
+      "reasons": [
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 43.38087909040488,
+      "pitch": 16.718140309205687,
+      "yaw": 4.741539054459991,
+      "ear": 0.10752061345580347,
+      "gaze_ratio": 0.3863721665262865,
+      "reasons": [
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 43.41474394527639,
+      "pitch": 17.15538170898068,
+      "yaw": 4.532654979663937,
+      "ear": 0.1000519258762409,
+      "gaze_ratio": 0.44573108824242935,
+      "reasons": [
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 43.4486088001479,
+      "pitch": 17.27311827610723,
+      "yaw": 4.210250938535456,
+      "ear": 0.09094022067110555,
+      "gaze_ratio": 0.543900483100703,
+      "reasons": [
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 43.48247365501941,
+      "pitch": 17.267345469377794,
+      "yaw": 4.012487228140808,
+      "ear": 0.10059226506608093,
+      "gaze_ratio": 0.44539878029152813,
+      "reasons": [
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 43.51633850989092,
+      "pitch": 16.84537982909585,
+      "yaw": 3.5088708810524745,
+      "ear": 0.09898909506231458,
+      "gaze_ratio": 0.44338982422969886,
+      "reasons": [
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 43.55020336476244,
+      "pitch": 16.785547912567118,
+      "yaw": 3.96705741494682,
+      "ear": 0.11593475110358975,
+      "gaze_ratio": 0.3946832394510702,
+      "reasons": [
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 43.58406821963395,
+      "pitch": 16.617024456172267,
+      "yaw": 2.9533509825480024,
+      "ear": 0.10605287893894537,
+      "gaze_ratio": 0.38225047514083493,
+      "reasons": [
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 43.61793307450546,
+      "pitch": 16.619812635718496,
+      "yaw": 3.1138688825855163,
+      "ear": 0.09593613300552492,
+      "gaze_ratio": 0.4309592597716711,
+      "reasons": [
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 43.65179792937697,
+      "pitch": 16.479750635822473,
+      "yaw": 2.979541051960615,
+      "ear": 0.09984499363060889,
+      "gaze_ratio": 0.41132393037016723,
+      "reasons": [
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 43.68566278424848,
+      "pitch": 16.41200596246711,
+      "yaw": 2.855594559200737,
+      "ear": 0.09405143585029538,
+      "gaze_ratio": 0.4316432143007773,
+      "reasons": [
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 43.71952763911999,
+      "pitch": 16.402653428851536,
+      "yaw": 3.1739157229804795,
+      "ear": 0.09945039558148602,
+      "gaze_ratio": 0.44103886163342954,
+      "reasons": [
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 43.7533924939915,
+      "pitch": 16.488474501649947,
+      "yaw": 3.247154405449129,
+      "ear": 0.10027138543656994,
+      "gaze_ratio": 0.4448594688426926,
+      "reasons": [
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 43.78725734886301,
+      "pitch": 16.722494614429525,
+      "yaw": 3.4562567285607133,
+      "ear": 0.09362068692649021,
+      "gaze_ratio": 0.4606323373696211,
+      "reasons": [
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 43.82112220373452,
+      "pitch": 16.98963410141371,
+      "yaw": 3.5570220094261966,
+      "ear": 0.08242326711342485,
+      "gaze_ratio": 0.4969506334905013,
+      "reasons": [
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 43.85498705860603,
+      "pitch": 16.873361747810904,
+      "yaw": 3.0543183199215522,
+      "ear": 0.08138287258326742,
+      "gaze_ratio": 0.517654638230893,
+      "reasons": [
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 43.88885191347754,
+      "pitch": 17.028585553098278,
+      "yaw": 3.5343789476351843,
+      "ear": 0.08836195485541909,
+      "gaze_ratio": 0.4735379228199884,
+      "reasons": [
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 43.92271676834905,
+      "pitch": 17.200804863834623,
+      "yaw": 3.3841516641084435,
+      "ear": 0.08496673951164148,
+      "gaze_ratio": 0.4653807311608182,
+      "reasons": [
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 43.95658162322056,
+      "pitch": 17.13807617223816,
+      "yaw": 3.5255982570081694,
+      "ear": 0.08372676964197015,
+      "gaze_ratio": 0.47903307882699536,
+      "reasons": [
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 43.990446478092075,
+      "pitch": 17.12745277753468,
+      "yaw": 3.263117800287977,
+      "ear": 0.08742610746330112,
+      "gaze_ratio": 0.4295822908927297,
+      "reasons": [
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 44.024311332963585,
+      "pitch": 17.207279702337047,
+      "yaw": 3.2115829837098513,
+      "ear": 0.08527392494674327,
+      "gaze_ratio": 0.4205837534048522,
+      "reasons": [
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 44.058176187835095,
+      "pitch": 17.20363204534546,
+      "yaw": 3.4938483019995843,
+      "ear": 0.08407030933708876,
+      "gaze_ratio": 0.4332823911275361,
+      "reasons": [
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 44.092041042706605,
+      "pitch": 17.29328223910027,
+      "yaw": 3.5021885939281496,
+      "ear": 0.08242991528100935,
+      "gaze_ratio": 0.4759047695682737,
+      "reasons": [
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 44.125905897578114,
+      "pitch": 17.26879770295436,
+      "yaw": 2.8585789077410757,
+      "ear": 0.08269506821854467,
+      "gaze_ratio": 0.4670582420169842,
+      "reasons": [
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 44.159770752449624,
+      "pitch": 17.701514452920627,
+      "yaw": 2.99445165655159,
+      "ear": 0.08074198733739996,
+      "gaze_ratio": 0.4865094068828729,
+      "reasons": [
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 44.193635607321134,
+      "pitch": 17.70010463527305,
+      "yaw": 2.3608745028031364,
+      "ear": 0.08016890953004821,
+      "gaze_ratio": 0.4633770152767594,
+      "reasons": [
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 44.227500462192644,
+      "pitch": 17.702371356859253,
+      "yaw": 2.443545489729105,
+      "ear": 0.08298750640045172,
+      "gaze_ratio": 0.42104314671872556,
+      "reasons": [
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 44.261365317064154,
+      "pitch": 17.998097709445116,
+      "yaw": 2.2643148421627406,
+      "ear": 0.08622506043880815,
+      "gaze_ratio": 0.38430258024416925,
+      "reasons": [
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 44.295230171935664,
+      "pitch": 18.049897630046814,
+      "yaw": 2.7144330889127097,
+      "ear": 0.07912943956214898,
+      "gaze_ratio": 0.4418399276028828,
+      "reasons": [
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 44.329095026807174,
+      "pitch": 18.210117329680553,
+      "yaw": 2.8061991815834255,
+      "ear": 0.08037285315138826,
+      "gaze_ratio": 0.47132401396069507,
+      "reasons": [
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 44.362959881678684,
+      "pitch": 18.189813816315535,
+      "yaw": 2.5915952884164932,
+      "ear": 0.07837925010670212,
+      "gaze_ratio": 0.47703701974387425,
+      "reasons": [
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 44.396824736550194,
+      "pitch": 18.198073359209577,
+      "yaw": 2.585870529571665,
+      "ear": 0.07860387694323784,
+      "gaze_ratio": 0.45615690007389026,
+      "reasons": [
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 44.430689591421704,
+      "pitch": 18.433171078927717,
+      "yaw": 3.0084799051432323,
+      "ear": 0.07234173441429184,
+      "gaze_ratio": 0.6021139291362569,
+      "reasons": [
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 44.46455444629322,
+      "pitch": 18.08333604205987,
+      "yaw": 3.444181557421468,
+      "ear": 0.07614833919906325,
+      "gaze_ratio": 0.5291832417668375,
+      "reasons": [
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 44.49841930116473,
+      "pitch": 18.051508886853068,
+      "yaw": 4.355564684226954,
+      "ear": 0.07140952462931036,
+      "gaze_ratio": 0.5164062090226547,
+      "reasons": [
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 44.53228415603624,
+      "pitch": 17.415956511005998,
+      "yaw": 4.677548981989103,
+      "ear": 0.08707383590442963,
+      "gaze_ratio": 0.49154778631776996,
+      "reasons": [
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 44.56614901090775,
+      "pitch": 17.256237838101104,
+      "yaw": 4.7182868919571845,
+      "ear": 0.08678091092146016,
+      "gaze_ratio": 0.5326527118205577,
+      "reasons": [
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 44.60001386577926,
+      "pitch": 17.2773785337131,
+      "yaw": 4.132782315575847,
+      "ear": 0.08989387092058804,
+      "gaze_ratio": 0.48754340974555543,
+      "reasons": [
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 44.63387872065077,
+      "pitch": 16.92064566622329,
+      "yaw": 4.14286991638061,
+      "ear": 0.08890358557961486,
+      "gaze_ratio": 0.47186848310127216,
+      "reasons": [
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 44.66774357552228,
+      "pitch": 17.18856337135032,
+      "yaw": 4.2405426572836795,
+      "ear": 0.0901802223083586,
+      "gaze_ratio": 0.4704480471250988,
+      "reasons": [
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 44.70160843039379,
+      "pitch": 16.983778310870893,
+      "yaw": 4.3092114912193304,
+      "ear": 0.09024592294587311,
+      "gaze_ratio": 0.47085367762820884,
+      "reasons": [
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 44.7354732852653,
+      "pitch": 16.777293491036378,
+      "yaw": 3.6814205492045255,
+      "ear": 0.08911002338519242,
+      "gaze_ratio": 0.45162378954177174,
+      "reasons": [
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 44.76933814013681,
+      "pitch": 16.9449736140095,
+      "yaw": 3.618105647843991,
+      "ear": 0.07939268555332588,
+      "gaze_ratio": 0.4449931134812687,
+      "reasons": [
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 44.80320299500832,
+      "pitch": 16.81893973214756,
+      "yaw": 3.6427980146322674,
+      "ear": 0.07986249682942953,
+      "gaze_ratio": 0.4592483193399231,
+      "reasons": [
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 44.83706784987983,
+      "pitch": 16.639421706976762,
+      "yaw": 4.0738954577590265,
+      "ear": 0.08768002403470004,
+      "gaze_ratio": 0.46563353374934113,
+      "reasons": [
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 44.87093270475134,
+      "pitch": 16.553848396601133,
+      "yaw": 5.140470982020943,
+      "ear": 0.09099346407541467,
+      "gaze_ratio": 0.4585074151377695,
+      "reasons": [
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 44.90479755962286,
+      "pitch": 16.673454161712133,
+      "yaw": 4.572967297290333,
+      "ear": 0.08188601011604588,
+      "gaze_ratio": 0.5744536116371396,
+      "reasons": [
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 44.93866241449437,
+      "pitch": 15.953567364041186,
+      "yaw": 4.639316224326184,
+      "ear": 0.0818145499560393,
+      "gaze_ratio": 0.5238488731326592,
+      "reasons": [
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 44.97252726936588,
+      "pitch": 16.54398352696264,
+      "yaw": 5.05936139247287,
+      "ear": 0.08052686134325002,
+      "gaze_ratio": 0.5271015078389856,
+      "reasons": [
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 45.00639212423739,
+      "pitch": 11.22292209817924,
+      "yaw": -3.025268289268413,
+      "ear": 0.0762716208157399,
+      "gaze_ratio": 0.6005342438222403,
+      "reasons": [
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 45.0402569791089,
+      "pitch": 16.19530316526911,
+      "yaw": 4.809364035125876,
+      "ear": 0.0850311985243156,
+      "gaze_ratio": 0.5172258426821035,
+      "reasons": [
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 45.074121833980406,
+      "pitch": 16.38405966092592,
+      "yaw": 4.719757592675967,
+      "ear": 0.08417201512608163,
+      "gaze_ratio": 0.43558124091224026,
+      "reasons": [
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 45.107986688851916,
+      "pitch": 16.263403983412424,
+      "yaw": 5.294330061161616,
+      "ear": 0.10093947631740545,
+      "gaze_ratio": 0.41703953716360886,
+      "reasons": [
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 45.141851543723426,
+      "pitch": 16.102183091070444,
+      "yaw": 4.957458213343172,
+      "ear": 0.08877006885875494,
+      "gaze_ratio": 0.42440164560765786,
+      "reasons": [
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 45.175716398594936,
+      "pitch": 16.45283885050202,
+      "yaw": 4.592176814116878,
+      "ear": 0.08264238590313727,
+      "gaze_ratio": 0.48807239462360513,
+      "reasons": [
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 45.209581253466446,
+      "pitch": 16.668925417628316,
+      "yaw": 5.33527419303576,
+      "ear": 0.08702490229581147,
+      "gaze_ratio": 0.4777852934079717,
+      "reasons": [
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 45.243446108337956,
+      "pitch": 16.690382285889722,
+      "yaw": 5.0737193874153945,
+      "ear": 0.0858952771831253,
+      "gaze_ratio": 0.5001504765557108,
+      "reasons": [
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 45.277310963209466,
+      "pitch": 16.731520832564865,
+      "yaw": 4.796977849871911,
+      "ear": 0.08834210142718654,
+      "gaze_ratio": 0.4226797792988698,
+      "reasons": [
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 45.311175818080976,
+      "pitch": 16.850501817131242,
+      "yaw": 4.847400132166914,
+      "ear": 0.0941529000842651,
+      "gaze_ratio": 0.4083450304511346,
+      "reasons": [
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 45.345040672952486,
+      "pitch": 16.50157450745171,
+      "yaw": 4.448884321768089,
+      "ear": 0.08021832669877196,
+      "gaze_ratio": 0.43294748379239023,
+      "reasons": [
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 45.378905527824,
+      "pitch": 16.720300598085682,
+      "yaw": 4.006099262635608,
+      "ear": 0.07505686943358195,
+      "gaze_ratio": 0.4377957969336113,
+      "reasons": [
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 45.41277038269551,
+      "pitch": 16.760077125494295,
+      "yaw": 3.8542203044871255,
+      "ear": 0.07244949886030505,
+      "gaze_ratio": 0.442398265589716,
+      "reasons": [
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 45.44663523756702,
+      "pitch": 16.971494346133284,
+      "yaw": 4.040548103475921,
+      "ear": 0.07697428904903034,
+      "gaze_ratio": 0.4645142610828493,
+      "reasons": [
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 45.48050009243853,
+      "pitch": 16.80000546239016,
+      "yaw": 4.3343094566062454,
+      "ear": 0.07766616346983576,
+      "gaze_ratio": 0.4818782490766982,
+      "reasons": [
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 45.51436494731004,
+      "pitch": 16.910195853511315,
+      "yaw": 4.401539512064636,
+      "ear": 0.07985436470076954,
+      "gaze_ratio": 0.48609705084820154,
+      "reasons": [
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 45.54822980218155,
+      "pitch": 17.25753293226019,
+      "yaw": 4.392433305112677,
+      "ear": 0.0783016246903193,
+      "gaze_ratio": 0.5364003094914658,
+      "reasons": [
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 45.58209465705306,
+      "pitch": 17.305214228926673,
+      "yaw": 4.54584256020406,
+      "ear": 0.07791106609780253,
+      "gaze_ratio": 0.49359747345368393,
+      "reasons": [
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 45.61595951192457,
+      "pitch": 16.992952420814493,
+      "yaw": 3.9416033315071806,
+      "ear": 0.0803462627280132,
+      "gaze_ratio": 0.44303718982546014,
+      "reasons": [
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 45.64982436679608,
+      "pitch": 16.863394645914532,
+      "yaw": 4.161680138684768,
+      "ear": 0.07687560468133259,
+      "gaze_ratio": 0.39586806216275694,
+      "reasons": [
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 45.68368922166759,
+      "pitch": 16.71826533578788,
+      "yaw": 4.138867461819793,
+      "ear": 0.08154873371104931,
+      "gaze_ratio": 0.4365084325774269,
+      "reasons": [
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 45.7175540765391,
+      "pitch": 16.906261433086165,
+      "yaw": 3.7732471618777637,
+      "ear": 0.08551746058404487,
+      "gaze_ratio": 0.3766271725106847,
+      "reasons": [
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 45.75141893141061,
+      "pitch": 16.96945732035039,
+      "yaw": 3.8121140802870106,
+      "ear": 0.08343244570420887,
+      "gaze_ratio": 0.45031658644059014,
+      "reasons": [
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 45.78528378628212,
+      "pitch": 16.789880058835557,
+      "yaw": 4.416352046965308,
+      "ear": 0.08448307268327947,
+      "gaze_ratio": 0.43316754548273845,
+      "reasons": [
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 45.81914864115364,
+      "pitch": 16.814064426146025,
+      "yaw": 5.151383034957538,
+      "ear": 0.08825746589947803,
+      "gaze_ratio": 0.4729635462302873,
+      "reasons": [
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 45.85301349602515,
+      "pitch": 16.59931291388771,
+      "yaw": 4.895081842550542,
+      "ear": 0.0845317239784576,
+      "gaze_ratio": 0.5048622953168002,
+      "reasons": [
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 45.88687835089666,
+      "pitch": 16.706742704966686,
+      "yaw": 4.849912109846211,
+      "ear": 0.08016099925291545,
+      "gaze_ratio": 0.4653371383965301,
+      "reasons": [
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 45.92074320576817,
+      "pitch": 16.937468654398348,
+      "yaw": 5.278427496416243,
+      "ear": 0.08204008063954199,
+      "gaze_ratio": 0.49143098470811564,
+      "reasons": [
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 45.95460806063968,
+      "pitch": 16.565623498058788,
+      "yaw": 4.857331941442825,
+      "ear": 0.08245192483162461,
+      "gaze_ratio": 0.5648208817808626,
+      "reasons": [
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 45.98847291551119,
+      "pitch": 16.479382368091585,
+      "yaw": 4.536961058020087,
+      "ear": 0.09042308567372237,
+      "gaze_ratio": 0.507532560385684,
+      "reasons": [
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 46.0223377703827,
+      "pitch": 16.66949689217989,
+      "yaw": 4.75138028797771,
+      "ear": 0.08590101714056539,
+      "gaze_ratio": 0.5332545308411188,
+      "reasons": [
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 46.05620262525421,
+      "pitch": 16.764626077063724,
+      "yaw": 4.710022851833605,
+      "ear": 0.08266610839312892,
+      "gaze_ratio": 0.5539118276344279,
+      "reasons": [
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 46.09006748012572,
+      "pitch": 16.753705791509585,
+      "yaw": 4.853420154507512,
+      "ear": 0.08650765840319005,
+      "gaze_ratio": 0.4952822414776178,
+      "reasons": [
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 46.12393233499723,
+      "pitch": 16.93285749109086,
+      "yaw": 5.01718569233096,
+      "ear": 0.07968936634867183,
+      "gaze_ratio": 0.5257973220305475,
+      "reasons": [
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 46.15779718986874,
+      "pitch": 16.811966124742337,
+      "yaw": 5.5620990085564825,
+      "ear": 0.07655894592000198,
+      "gaze_ratio": 0.5333747122483937,
+      "reasons": [
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 46.19166204474025,
+      "pitch": 16.896750738232182,
+      "yaw": 5.31451679736682,
+      "ear": 0.0759909662701968,
+      "gaze_ratio": 0.5034537121373597,
+      "reasons": [
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 46.22552689961176,
+      "pitch": 16.626951934409306,
+      "yaw": 5.180254313296055,
+      "ear": 0.08207802793202104,
+      "gaze_ratio": 0.5055897091024013,
+      "reasons": [
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 46.25939175448327,
+      "pitch": 16.88422143650362,
+      "yaw": 5.255921366710222,
+      "ear": 0.07834478676876339,
+      "gaze_ratio": 0.5207724186721856,
+      "reasons": [
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 46.293256609354785,
+      "pitch": 16.69365657684794,
+      "yaw": 4.837114119315275,
+      "ear": 0.08183428584887889,
+      "gaze_ratio": 0.4607032329067283,
+      "reasons": [
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 46.327121464226295,
+      "pitch": 16.665331195905566,
+      "yaw": 4.654039187917874,
+      "ear": 0.11932480166185083,
+      "gaze_ratio": 0.3436246657557336,
+      "reasons": [
+        "looking_up",
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 46.360986319097805,
+      "pitch": 16.541511945679595,
+      "yaw": 3.7831985587029178,
+      "ear": 0.1627798213320028,
+      "gaze_ratio": 0.34498682838414085,
+      "reasons": [
+        "looking_up",
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 46.394851173969315,
+      "pitch": 16.508068841634824,
+      "yaw": 2.451496734527065,
+      "ear": 0.2045075613680536,
+      "gaze_ratio": 0.34645123791361876,
+      "reasons": [
+        "looking_up"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 49.51041782214828,
+      "pitch": 17.381179284568272,
+      "yaw": 4.928339211748712,
+      "ear": 0.14239084376373815,
+      "gaze_ratio": 0.4180443213761811,
+      "reasons": [
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 49.54428267701979,
+      "pitch": 17.17628278224936,
+      "yaw": 4.819069476386637,
+      "ear": 0.14689916924609875,
+      "gaze_ratio": 0.3946899455979527,
+      "reasons": [
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 49.5781475318913,
+      "pitch": 17.395056792493403,
+      "yaw": 4.574047665168198,
+      "ear": 0.13059600192527,
+      "gaze_ratio": 0.3950025836957961,
+      "reasons": [
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 49.61201238676281,
+      "pitch": 17.292081454007917,
+      "yaw": 4.9187799005608825,
+      "ear": 0.13236276886371892,
+      "gaze_ratio": 0.3933418212283811,
+      "reasons": [
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 49.64587724163432,
+      "pitch": 17.230447096134025,
+      "yaw": 4.846692808570039,
+      "ear": 0.12843987682719538,
+      "gaze_ratio": 0.3956352649464733,
+      "reasons": [
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 49.67974209650583,
+      "pitch": 17.23659959231957,
+      "yaw": 4.488321642693033,
+      "ear": 0.13109913094158387,
+      "gaze_ratio": 0.3787831605939638,
+      "reasons": [
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 49.713606951377336,
+      "pitch": 17.219576748257886,
+      "yaw": 3.939100523376986,
+      "ear": 0.13528189871920465,
+      "gaze_ratio": 0.38246505290914745,
+      "reasons": [
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 49.747471806248846,
+      "pitch": 17.230672397692747,
+      "yaw": 3.8463913039364233,
+      "ear": 0.12869531531989226,
+      "gaze_ratio": 0.36044554187061517,
+      "reasons": [
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 49.781336661120356,
+      "pitch": 17.221635078842358,
+      "yaw": 3.4472452409104584,
+      "ear": 0.13633343546920362,
+      "gaze_ratio": 0.3569754059252898,
+      "reasons": [
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 49.815201515991866,
+      "pitch": 17.283967254448186,
+      "yaw": 3.8185468387978507,
+      "ear": 0.12833915064470378,
+      "gaze_ratio": 0.37570544854390847,
+      "reasons": [
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 49.849066370863376,
+      "pitch": 17.11786737682396,
+      "yaw": 4.88231239469455,
+      "ear": 0.1505151447553523,
+      "gaze_ratio": 0.3711979310512061,
+      "reasons": [
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 49.882931225734886,
+      "pitch": 17.155580371816374,
+      "yaw": 3.5664628084088164,
+      "ear": 0.10914309556587372,
+      "gaze_ratio": 0.6354331293038749,
+      "reasons": [
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 49.9167960806064,
+      "pitch": 17.2978636504191,
+      "yaw": 3.2402021528416296,
+      "ear": 0.06453788488423264,
+      "gaze_ratio": 1.1317707906537393,
+      "reasons": [
+        "looking_down",
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 49.95066093547791,
+      "pitch": 17.813822307330046,
+      "yaw": 3.552862916087184,
+      "ear": 0.07444074697885493,
+      "gaze_ratio": 1.0124816662971656,
+      "reasons": [
+        "looking_down",
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 49.98452579034942,
+      "pitch": 17.264006762052006,
+      "yaw": 4.3221342818585295,
+      "ear": 0.09763739633723406,
+      "gaze_ratio": 0.6150426997615832,
+      "reasons": [
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 50.01839064522093,
+      "pitch": 16.6362070354594,
+      "yaw": 4.297654790908982,
+      "ear": 0.13753708666840486,
+      "gaze_ratio": 0.4148447536436043,
+      "reasons": [
+        "eyes_closed"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 50.05225550009244,
+      "pitch": 16.697951896064755,
+      "yaw": 3.5132214141358413,
+      "ear": 0.21088041693372328,
+      "gaze_ratio": 0.34590650416838076,
+      "reasons": [
+        "looking_up"
+      ],
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": 50.08612035496395,
+      "pitch": 16.550803008669007,
+      "yaw": 3.2667280571059356,
+      "ear": 0.21709939312528737,
+      "gaze_ratio": 0.3342490292679341,
+      "reasons": [
+        "looking_up"
+      ],
+      "event_type": "LOOKING_AWAY"
+    }
+  ],
+  "summary": "Summary of suspicious activity: 282 instance(s) of looking away detected."
+}
