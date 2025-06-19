@@ -143,8 +143,8 @@ def detect_looking_away(video_path):
                 get_vertical_gaze_ratio(159, 145, 468, landmarks, frame.shape[1], frame.shape[0]) +
                 get_vertical_gaze_ratio(386, 374, 473, landmarks, frame.shape[1], frame.shape[0])
             ) / 2.0
-            looking_up = vertical_gaze_ratio < 0.35
-            looking_down = vertical_gaze_ratio > 0.65
+            looking_up = vertical_gaze_ratio < 0.40
+            looking_down = vertical_gaze_ratio > 0.70
 
             if pose:
                 pitch, yaw, roll = pose
