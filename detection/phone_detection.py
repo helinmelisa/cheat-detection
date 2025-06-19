@@ -1,8 +1,3 @@
-import cv2
-import os
-from ultralytics import YOLO
-
-
 """
 phone_detection.py - Detects presence of phones (cell phones or mobiles) in video frames.
 
@@ -15,7 +10,7 @@ This helps identify potential cheating via unauthorized devices.
 
 import cv2
 import os
-from ultralytics import YOLO  # Assuming you use ultralytics' YOLO implementation
+from ultralytics import YOLO  
 
 # --- Configuration Constants ---
 YOLO_MODEL_PATH = "yolov5su.pt"    # Path to the YOLO model weights file
