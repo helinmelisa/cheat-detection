@@ -1,2 +1,8 @@
 opencv-python
 mediapipe
+torch
+torchvision
+yolov5  
+numpy
+ffmpeg-python
+whisper-openai 
