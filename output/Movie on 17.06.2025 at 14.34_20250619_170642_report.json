@@ -1,0 +1,113 @@
+{
+  "events": [
+    {
+      "timestamp": "28.34",
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": "28.38",
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": "28.41",
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": "33.22",
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": "33.26",
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": "33.86",
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": "37.45",
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": "43.41",
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": "46.63",
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": "46.67",
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": "50.76",
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": "50.80",
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": "50.83",
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": "50.87",
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": "50.90",
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": "51.54",
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": "51.58",
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": "51.61",
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": "51.64",
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": "55.54",
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": "56.55",
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": "56.59",
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": "56.62",
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": "56.66",
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": "56.69",
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": "56.72",
+      "event_type": "LOOKING_AWAY"
+    },
+    {
+      "timestamp": "56.76",
+      "event_type": "LOOKING_AWAY"
+    }
+  ],
+  "summary": "Summary of suspicious activity: 27 instance(s) of looking away detected."
+}

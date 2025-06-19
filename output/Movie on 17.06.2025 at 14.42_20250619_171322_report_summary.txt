@@ -1,0 +1,1 @@
+Summary of suspicious activity: 171 instance(s) of looking away detected. 1 phone usage event(s) detected. 1 segment(s) with speaking detected.

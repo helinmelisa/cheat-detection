@@ -3,106 +3,99 @@ import os
 from ultralytics import YOLO
 
 
-YOLO_MODEL = "yolov5su.pt"
-FRAME_PROCESS_INTERVAL = 30 # Process every Nth frame to save computation
-CONFIDENCE_THRESHOLD = 0.4 # Minimum confidence to consider a detection valid
-# Classes to specifically look for. Using lowercase for robust comparison.
-TARGET_PHONE_CLASSES = ["cell phone", "mobile phone"]
+"""
+phone_detection.py - Detects presence of phones (cell phones or mobiles) in video frames.
 
-# Load the YOLO model globally to avoid reloading for every function call.
-# The model will be downloaded automatically if not found.
+This module uses a pretrained YOLOv5 model (e.g., yolov5su.pt) to detect objects.
+It processes the video frame-by-frame (skipping frames for performance) and
+flags frames where a phone is detected with a confidence above a threshold.
+
+This helps identify potential cheating via unauthorized devices.
+"""
+
+import cv2
+import os
+from ultralytics import YOLO  # Assuming you use ultralytics' YOLO implementation
+
+# --- Configuration Constants ---
+YOLO_MODEL_PATH = "yolov5su.pt"    # Path to the YOLO model weights file
+FRAME_PROCESS_INTERVAL = 30         # Process every 30th frame to reduce computation
+CONFIDENCE_THRESHOLD = 0.4          # Minimum confidence to consider a detection valid
+TARGET_PHONE_CLASSES = ["cell phone", "mobile phone"]  # Class names to look for (case-insensitive)
+
+# --- Load the YOLO model once globally ---
 try:
-    model = YOLO(YOLO_MODEL)
-    print(f"YOLO model '{YOLO_MODEL}' loaded successfully.")
+    model = YOLO(YOLO_MODEL_PATH)
+    print(f"YOLO model '{YOLO_MODEL_PATH}' loaded successfully.")
 except Exception as e:
-    raise RuntimeError(f"Failed to load YOLO model '{YOLO_MODEL}'. Ensure it's valid and accessible. Error: {e}")
+    raise RuntimeError(f"Failed to load YOLO model '{YOLO_MODEL_PATH}': {e}")
 
 def detect_phone(video_path: str) -> list:
     """
-    Detects instances where a phone is present in the video.
+    Detect frames containing phones.
 
     Args:
-        video_path (str): The full path to the video file to analyze.
+        video_path (str): Full path to the video file.
 
     Returns:
-        list: A list of dictionaries, each representing a 'PHONE_DETECTED' event
-              with a timestamp.
-              Example: [{"timestamp": "12.3", "event_type": "PHONE_DETECTED"}]
+        List[dict]: List of events with timestamps where phones were detected.
+                    Example: [{"timestamp": "12.3", "event_type": "PHONE_DETECTED"}]
     """
     if not os.path.exists(video_path):
         print(f"Error: Video file not found at {video_path}")
         return []
 
     cap = cv2.VideoCapture(video_path)
-
     if not cap.isOpened():
         print(f"Error: Could not open video file {video_path}")
         return []
 
     fps = cap.get(cv2.CAP_PROP_FPS)
     if fps <= 0:
-        print(f"Warning: Could not get FPS from video {video_path}. Defaulting to 30 FPS.")
-        fps = 30  # Default to 30 FPS if unable to retrieve
+        print(f"Warning: Could not determine FPS, defaulting to 30 FPS.")
+        fps = 30
 
     frame_number = 0
-    events = []
+    detected_events = []
 
-    print(f"Starting phone detection for {video_path}...")
+    print(f"Starting phone detection on video: {video_path}")
 
     while True:
         ret, frame = cap.read()
         if not ret:
-            # End of video or error reading frame
+            # End of video reached
             break
 
         frame_number += 1
 
-        # Process only every Nth frame for performance
+        # Skip frames to improve speed
         if frame_number % FRAME_PROCESS_INTERVAL != 0:
             continue
 
-        # Perform object detection on the frame
-        # The [0] is used to get the first (and usually only) result object
-        # when processing a single image/frame.
-        results = model(frame, verbose=False)[0] # verbose=False to suppress print output per inference
+        # Run YOLO detection on the current frame
+        results = model(frame, verbose=False)[0]  # Process the frame, get first result
 
-        phone_found_in_frame = False
-        # Iterate through detected objects
-        for result in results.boxes.data.tolist():
-            # Unpack detection results: x1, y1, x2, y2 (bounding box coords),
-            # confidence (detection confidence), cls_id (class index)
-            _, _, _, _, confidence, cls_id = result # We only need confidence and class_id here
+        # Loop through all detected bounding boxes
+        phone_found = False
+        for box in results.boxes.data.tolist():
+            # Unpack detection results: x1, y1, x2, y2, confidence, class_id
+            _, _, _, _, confidence, class_id = box
+            class_name = model.names[int(class_id)]
 
-            class_name = model.names[int(cls_id)]
-
-            # Check if the detected object is a target phone class and meets confidence threshold
+            # Check if detected object is a phone with confidence above threshold
             if confidence >= CONFIDENCE_THRESHOLD and class_name.lower() in TARGET_PHONE_CLASSES:
-                timestamp = frame_number / fps
-                events.append({
-                    "timestamp": f"{timestamp:.1f}", # Format to one decimal place
+                timestamp_sec = frame_number / fps
+                detected_events.append({
+                    "timestamp": f"{timestamp_sec:.1f}",
                     "event_type": "PHONE_DETECTED"
                 })
-                phone_found_in_frame = True
-                break  # Exit loop after first phone detection in this frame, as per original logic
-
+                print(f"[{timestamp_sec:.1f}s] Phone detected (confidence: {confidence:.2f}).")
+                phone_found = True
+                break  # Only one phone event per frame
 
     cap.release()
-    cv2.destroyAllWindows() # Ensure all OpenCV windows are closed if any were opened
-    print(f"Phone detection finished. Found {len(events)} 'PHONE_DETECTED' events.")
-    return events
+    cv2.destroyAllWindows()
 
-if __name__ == "__main__":
-    test_video_path = r"\videos\Movie on 17.06.2025 at 14.42.mov"
-    
-    if not os.path.exists(test_video_path):
-        print(f"Warning: Test video not found at '{test_video_path}'. Skipping direct run test.")
-        print("Please replace 'test_video_path' with a valid video path for testing.")
-    else:
-        print(f"Running phone detection on: {test_video_path}")
-        phone_events = detect_phone(test_video_path)
-        print("\n--- Detected Phone Events ---")
-        if phone_events:
-            for event in phone_events:
-                print(event)
-        else:
-            print("No 'PHONE_DETECTED' events detected.")
+    print(f"Phone detection complete. Found {len(detected_events)} events.")
+    return detected_events
+

@@ -1,0 +1,1 @@
+Summary of suspicious activity: 27 instance(s) of looking away detected.
