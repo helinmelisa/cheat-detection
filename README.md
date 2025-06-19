@@ -71,7 +71,6 @@ The system is modular and consists of four detection units:
 - Flags speech events longer than a threshold as potential communication with someone off-screen.
 
 
-
 Each module outputs its own timestamped events. These are compiled into a single report.
 
 ## Tools, Libraries, and Models Used
