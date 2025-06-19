@@ -230,7 +230,7 @@ def detect_looking_away(video_path: str) -> list:
     return looking_away_events
 
 if __name__ == "__main__":
-    video_path = r"C:\Users\helin\cheat-detection\videos\Movie on 17.06.2025 at 14.39.mov" # Example path, replace with yours!
+    video_path = r"\videos\Movie on 17.06.2025 at 14.39.mov" # Example path, replace with yours!
 
     if os.path.exists(video_path):
         print(f"Processing video: {video_path}")
