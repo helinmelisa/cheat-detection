@@ -4,8 +4,10 @@ speech_detection.py - Detects when the test-taker is speaking during the video.
 This module extracts the audio track from the input video using ffmpeg,
 then uses OpenAI's Whisper model to transcribe speech segments.
 
-It groups short segments close in time to reduce fragmentation,
+It groups short segments that are close in time to reduce fragmentation,
 and returns timestamps with detected speech along with the transcribed text.
+
+Use case: Helps identify unauthorized speech (e.g., asking someone for help during a test).
 """
 
 import os
@@ -14,23 +16,23 @@ import whisper
 import json
 
 # --- Configuration Constants ---
-WHISPER_MODEL_SIZE = "base"  # Options: tiny, base, small, medium, large
-TEMP_AUDIO_PATH = "temp_audio.wav"
-MIN_TEXT_LENGTH = 5
-MERGE_THRESHOLD_SEC = 1.5
-SAVE_TRANSCRIPT_JSON = True  
+WHISPER_MODEL_SIZE = "base"        # Options: tiny, base, small, medium, large
+TEMP_AUDIO_PATH = "temp_audio.wav" # Temporary path for extracted audio
+MIN_TEXT_LENGTH = 5                # Skip very short (likely noise) segments
+MERGE_THRESHOLD_SEC = 1.5          # Max gap (in sec) to merge consecutive segments
+SAVE_TRANSCRIPT_JSON = False        # Whether to save output to a JSON file
 
 def extract_audio_with_ffmpeg(video_path: str, output_wav_path: str, sample_rate: int = 16000) -> bool:
     """
-    Extracts audio from video as a mono WAV file using ffmpeg.
+    Extracts mono WAV audio from a video using ffmpeg.
 
     Args:
-        video_path (str): Input video path.
-        output_wav_path (str): Output WAV audio path.
-        sample_rate (int): Target audio sample rate.
+        video_path (str): Path to the input video.
+        output_wav_path (str): Path to store the extracted audio (WAV).
+        sample_rate (int): Sampling rate in Hz (default 16000 for Whisper compatibility).
 
     Returns:
-        bool: True if extraction succeeded, else False.
+        bool: True if extraction succeeded, otherwise False.
     """
     try:
         ffmpeg.input(video_path).output(
@@ -47,13 +49,13 @@ def extract_audio_with_ffmpeg(video_path: str, output_wav_path: str, sample_rate
 
 def format_timestamp(seconds: float) -> str:
     """
-    Converts seconds to a formatted string MM:SS.s
+    Converts seconds into MM:SS.s format (human-friendly).
 
     Args:
-        seconds (float): Time in seconds.
+        seconds (float): Timestamp in seconds.
 
     Returns:
-        str: Formatted timestamp string.
+        str: Formatted string (e.g., "03:25.6").
     """
     minutes = int(seconds // 60)
     secs = seconds % 60
@@ -61,13 +63,19 @@ def format_timestamp(seconds: float) -> str:
 
 def detect_speaking_to_someone(video_path: str) -> list:
     """
-    Detects speaking events in the video by transcribing audio using Whisper.
+    Detects spoken speech events in a video using Whisper.
 
     Args:
-        video_path (str): Path to input video file.
+        video_path (str): Path to the input video file.
 
     Returns:
-        list of dict: List of detected speaking events with start/end timestamps and transcribed text.
+        list[dict]: List of detected speech segments.
+            Each entry includes:
+            - timestamp_start (str): When the speech starts (formatted MM:SS.s)
+            - timestamp_end (str): When the speech ends (formatted MM:SS.s)
+            - event_type (str): Always "SPEAKING_TO_SOMEONE"
+            - text (str): Transcribed content
+            - language (str): Detected language
     """
     if not os.path.exists(video_path):
         print(f"[ERROR] Video not found: {video_path}")
@@ -78,28 +86,32 @@ def detect_speaking_to_someone(video_path: str) -> list:
         return []
 
     try:
+        # Load Whisper model
         print(f"[INFO] Loading Whisper model: {WHISPER_MODEL_SIZE}")
         model = whisper.load_model(WHISPER_MODEL_SIZE)
 
+        # Transcribe audio
         print("[INFO] Transcribing audio...")
         transcription = model.transcribe(TEMP_AUDIO_PATH, verbose=False, temperature=0.0)
         segments = transcription.get("segments", [])
         language = transcription.get("language", "unknown")
 
         print(f"[INFO] Detected language: {language}")
-        print(f"[INFO] Total segments detected: {len(segments)}")
+        print(f"[INFO] Total raw segments detected: {len(segments)}")
 
+        # Merge adjacent short segments (less than 1.5s apart)
         merged_segments = []
         current = None
 
         for seg in segments:
             text = seg.get("text", "").strip()
             if len(text) < MIN_TEXT_LENGTH:
-                continue
+                continue  # Skip irrelevant/noisy text
 
             start = seg.get("start")
             end = seg.get("end")
 
+            # Merge logic: combine with previous segment if within threshold
             if current is None:
                 current = {"start": start, "end": end, "text": text}
             elif start - current["end"] <= MERGE_THRESHOLD_SEC:
@@ -114,6 +126,7 @@ def detect_speaking_to_someone(video_path: str) -> list:
 
         print(f"[INFO] Merged segments: {len(merged_segments)}")
 
+        # Format final output
         speaking_events = []
         for seg in merged_segments:
             speaking_events.append({
@@ -123,9 +136,10 @@ def detect_speaking_to_someone(video_path: str) -> list:
                 "text": seg["text"],
                 "language": language
             })
+            print(f"[{speaking_events[-1]['timestamp_start']} - {speaking_events[-1]['timestamp_end']}] "
+                  f"{speaking_events[-1]['text']}")
 
-            print(speaking_events)
-
+        # Save JSON
         if SAVE_TRANSCRIPT_JSON:
             out_path = os.path.splitext(video_path)[0] + "_speech.json"
             with open(out_path, "w", encoding="utf-8") as f:
@@ -140,11 +154,12 @@ def detect_speaking_to_someone(video_path: str) -> list:
         return []
 
     finally:
+        # Clean up temporary audio file
         if os.path.exists(TEMP_AUDIO_PATH):
             os.remove(TEMP_AUDIO_PATH)
             print(f"[INFO] Removed temporary audio file: {TEMP_AUDIO_PATH}")
 
-# --- Test ---
+# --- Testing ---
 if __name__ == "__main__":
     test_video = r"\videos\Movie on 17.06.2025 at 14.42.mov"
     detect_speaking_to_someone(test_video)
