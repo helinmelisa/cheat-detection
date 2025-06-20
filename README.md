@@ -84,3 +84,46 @@ Each module outputs its own timestamped events. These are compiled into a single
 | NumPy               | Numeric operations, smoothing, matrices |   
 | Python Standard Lib | File I/O, JSON, datetime, os            |   
 
+## Limitations, Assumptions, and Trade-offs
+- False Positives/Negatives:
+The system uses heuristic thresholds (e.g., pitch > 20°, yaw > 25°, EAR < 0.2), which may lead to occasional misclassification depending on lighting, head pose, or accents.
+
+- Single-Person Assumption:
+The gaze detection and Whisper models assume the subject is in focus and centered. Multiple people or noisy environments may confuse results.
+
+- YOLO Phone Detection:
+Only works well when the phone is clearly visible to the camera and not occluded or partially shown.
+
+- Language Bias:
+Whisper detects and transcribes any spoken language, but performance may vary across accents and background noise levels.
+
+- Frame Skipping:
+To optimize performance, not every frame is analyzed. This may miss very short events, especially for phone or people detection.
+
+- Offline-Only:
+The system currently processes pre-recorded videos and does not work in real time.
+
+## Future Work & Possible Improvements
+While this system offers a practical baseline for video-based cheat detection, several enhancements could significantly improve its robustness, scalability, and real-time performance:
+
+1. Real-Time Monitoring
+- Extend the system to support live webcam streams (e.g., via WebRTC) for real-time proctoring rather than post-event analysis.
+
+2. Improved Gaze Calibration
+- Introduce per-user calibration to account for different head positions, eye shapes, or webcam angles—especially to reduce false gaze detections.
+
+3. Multi-Person Context Awareness
+- Instead of just counting faces, use person re-identification and pose estimation to track which person is speaking or using a phone.
+
+4. Environment Awareness
+- Add scene classification (e.g., detecting mirrors, TVs, or multiple screens) to better understand the testing environment.
+
+5. Speaker Diarization
+- Combine Whisper with voice separation or diarization tools to detect if multiple people are speaking (vs. a single speaker talking to themselves).
+
+6. Custom Training for Phones
+- Detect contextual cues like screens, mirrors, or multiple monitors that could facilitate cheating but aren't currently flagged.
+
+7. Temporal Correlation Across Modalities
+- Fuse visual and audio modalities: for example, confirming speech only when the mouth is visibly moving, or correlating head turn with speech onset.
+
